@@ -18,13 +18,26 @@ body{
 }
 
 .section{
+    position: relative;
     float: left;
     width: 30%;
     padding: 7px;
+    padding-top: 0;
+    padding-right: 0;
     border: 2px black solid;
     border-radius: 5px;
     background-color: gray;
     margin: .8%;
+}
+
+.title{
+    float: right;
+    margin-left: 100%;
+    border: 2px black solid;
+    border-radius: 5px;
+    background-color: rgb(182, 32, 32);
+    width: 20%;
+    text-align: center;
 }
 
 
